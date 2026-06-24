@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Classes</title>
+
+  <style>
+
+
+
+/* pour le lien */
+.home-link{
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+  background:rgba(0,0,0,0.4);
+  padding:8px 15px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.home-link:hover{
+  background:#b81b09;
+}
+
+
+    
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#111;
+      color:white;
+    }
+
+    /* Header */
+
+    .header{
+      height:40vh;
+
+      background:
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url("gym.jpeg");
+
+      background-size:cover;
+      background-position:center;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+
+      text-align:center;
+    }
+
+    .header h1{
+      font-size:60px;
+      color:#b81b09;
+    }
+
+    .header p{
+      margin-top:10px;
+      font-size:20px;
+      color:#ddd;
+    }
+
+    /* Classes */
+
+    .classes{
+      width:90%;
+      margin:auto;
+      padding:60px 0;
+
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:#1b1b1b;
+      border-radius:15px;
+      overflow:hidden;
+      transition:0.4s;
+      box-shadow:0 5px 20px rgba(0,0,0,0.4);
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+    }
+
+    .content{
+      padding:25px;
+      text-align:center;
+    }
+
+    .content h2{
+      color:#b81b09;
+      margin-bottom:15px;
+      font-size:28px;
+    }
+
+    .content p{
+      color:#ddd;
+      line-height:1.6;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:#b81b09;
+      color:white;
+      text-decoration:none;
+      border-radius:30px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#f12711;
+    }
+    .h{
+      color: #b81b09;
+    }
+
+  </style>
+</head>
+
+<body>
+  <a href="home.html" class="home-link">← Home</a>
+  
+  <!-- Header -->
+
+  <div class="header">
+    
+    
+    <h1>OUR CLASSES</h1>
+
+    <p>Choose Your Favorite Fitness Program</p>
+
+  </div>
+
+  <!-- Classes -->
+
+  <section class="classes">
+
+    <!-- Class 1 -->
+   
+
+    <div class="card">
+
+      <img src="yoga.jpeg">
+
+      <div class="content">
+
+        <h2>Yoga Class</h2>
+
+        <p>
+          Improve flexibility, balance and mental focus
+          with our professional yoga sessions.
+        </p>
+
+        
+      </div>
+
+    </div>
+
+    <!-- Class 2 -->
+
+    <div class="card">
+
+      <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=900">
+
+      <div class="content">
+
+        <h2>Bodybuilding</h2>
+
+        <p>
+          Build muscles and increase strength with
+          intense bodybuilding workouts.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+
+    <!-- Class 3 -->
+
+    <div class="card">
+
+      <img src="crossfit.jpeg">
+
+      <div class="content">
+
+        <h2>CrossFit Training</h2>
+
+        <p>
+          Burn calories and improve endurance through
+          high energy cardio exercises.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+
+    <!-- Class 4 -->
+
+    <div class="card">
+
+      <img src="kick boxing.jpeg">
+
+      <div class="content">
+
+        <h2>Kick boxing</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+    <!-- Class 5 -->
+
+    <div class="card">
+
+      <img src="muay thai.jpeg">
+
+      <div class="content">
+
+        <h2>Muay thai</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+    <!-- Class 6 -->
+
+    <div class="card">
+
+      <img src="wrestling.jpeg">
+
+      <div class="content">
+
+        <h2>Wrestling</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+    <!-- Class 7 -->
+
+    <div class="card">
+
+      <img src="pilates.jpeg">
+
+      <div class="content">
+
+        <h2>Pilates</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+    <!-- Class 8 -->
+
+    <div class="card">
+
+      <img src="taekwondo.jpeg">
+
+      <div class="content">
+
+        <h2>Taekwondo</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+    <!-- Class 9 -->
+
+    <div class="card">
+
+      <img src="selfdefence.jpeg">
+
+      <div class="content">
+
+        <h2>Self defance</h2>
+
+        <p>
+          High intensity workouts designed to improve
+          strength and physical performance.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>

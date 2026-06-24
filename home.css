@@ -1,0 +1,122 @@
+.content{
+    display:flex;
+    flex-wrap: wrap;
+}
+section{
+    border: none;
+    margin: 7px;
+    width: 500px;
+    
+}
+#titre{
+    background: linear-gradient(319deg, #f12711 0%, #0e0a01 65%);
+    padding: 7%;
+  
+
+}
+
+
+
+#timetable1{
+    text-align: center;
+    color: #601007;
+}
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:white;
+  color:#111;
+}
+
+/* Title */
+
+.header{
+  text-align:center;
+  padding:40px;
+}
+
+.header h1{
+  font-size:50px;
+  color:#79150a;
+  margin-bottom:10px;
+}
+
+.header p{
+  font-size:18px;
+  color:#555;
+}
+
+/* Table */
+
+table{
+  width:90%;
+  margin:20px auto 60px;
+  border-collapse:collapse;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+th{
+  background:#ca3a2a;
+  color:white;
+  padding:15px;
+  font-size:18px;
+}
+
+td{
+  padding:18px;
+  border:1px solid #eee;
+}
+
+tr:nth-child(even){
+  background:#f9f9f9;
+}
+
+tr:hover{
+  background:#ffe6dc;
+}
+
+.sport{
+  font-weight:bold;
+  color:#ca3a2a;
+}
+
+button{
+      padding:15px 35px;
+      border:none;
+      background:#b81b09;
+      color:white;
+      font-size:20px;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#f12711;
+    }
+
+
+
+
+   
+.small-select{
+    height: 32px;
+    font-size: 13px;
+    padding: 2px 25px;
+}
+.btn{
+  height: 32px;
+    font-size: 11px;
+    padding: 2px 25px;
+    font-weight: bold;
+}

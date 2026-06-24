@@ -1,0 +1,145 @@
+/*form{
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5%;}*/
+.link{
+      text-align:center;
+      margin-top:15px;
+      font-size:14px;
+    }
+
+.link a{
+      color:#b81b09;
+      text-decoration:none;
+    }
+
+.btn{
+    /*
+    border: none;
+    cursor: pointer;
+    background-color:#b81b09;
+    color:white;
+    padding: 10px;
+    width: 250px; */
+
+
+
+      width:255px;
+      padding:10px;
+      background-color:#b81b09;
+      color:white;
+      border:none;
+      border-radius:5px;
+      font-size:16px;
+      cursor:pointer;
+}
+button:hover{
+      background:#f12711;
+    }
+.main{
+     background: white;
+      padding:40px;
+      border-radius:10px;
+      width:320px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.3);
+
+
+
+/*
+    background: white;
+    padding: 30px;
+    /*border-radius: 10px;
+    width: 320px;
+    box-shadow: 3px 3px 15px black;*/
+}
+body{
+    font-family: arial;
+   background: linear-gradient(135deg, #111, #333);
+    
+    /* background: linear-gradient(to right,#74ebd5,#ACB6E5);*/
+
+    display: flex;
+    justify-content: center;/* middle ordhi (ofo9i) */
+    align-items: center;/* middle touli (amoudi)*/
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    margin: 8px;
+    border-width: 1px;
+    
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+.div{
+    display: flex;
+}
+hr{
+    width: 27%;
+    /*justify-content: start;*/
+
+}
+/*.hr{
+    width: 27%;
+    justify-content:end;
+}*/
+.container{
+    display: flex;
+    height: 100px;
+}
+/*
+img{
+    margin: 10%;
+    width: 10%;
+}
+apple{
+    height:10px;
+    width: 10px;
+}
+facebook{
+    height:10px;
+    width: 10px;
+}
+google{
+    height:10px;
+    width: 10px;
+}*/
+.social-icons{
+  display:flex;
+  justify-content:center;
+  gap:15px;   /* space small */
+  margin-top:10px;
+}
+
+.icon{
+  width:40px;      /* SMALL SIZE */
+  height:40px;
+  border-radius:50%;
+  border:1px solid #ddd;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  background:white;
+}
+
+.icon img{
+  width:18px;      /* SMALL ICON */
+  height:18px;
+}
+
+.icon:hover{
+  transform:scale(1.1);
+}
+

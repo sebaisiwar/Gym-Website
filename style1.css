@@ -1,0 +1,30 @@
+header{
+    background: linear-gradient(319deg, #f12711 0%, #0e0a01 65%);
+    padding: 7%
+
+}
+h2{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+a{
+    color: #c31e0b;
+    font-style: italic;
+}
+.class{
+    color: aliceblue;
+    
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+}
+section{
+    border: none;
+    margin: 7px;
+    background-image: url(gym.jpeg);
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px gray;
+    width: 470px;
+}
